@@ -2,23 +2,28 @@
 
 
 chrome.runtime.onMessage.addListener(
-    
-    function(request, sender, sendResponse) {
+
+    function (request, sender, sendResponse) {
         console.log("message recu");
-        
+
         try {
             document.getElementById("username").value = request.username;
             document.getElementById("password1").value = request.password;
-            
-            //document.getElementsByClassName("btn")[0].click();
-            sendResponse({status: "Success!"});
+
+            document.getElementsByClassName("btn")[0].click();
+            sendResponse({ status: "Success!" });
         } catch (error) {
             console.log(error)
-            sendResponse({status: "Exception occurred!"});
+            sendResponse({ status: "Exception occurred!" });
         }
-        
+
     }
 )
+// window.addEventListener('locationchange', function() {
+//      document.getElementsByTagName('a')[1].click();
+//     console.log("click on <a>");
+//  });
+
 
 // console.log(username,password);
 // document.getElementById('username').value =password;// username;
