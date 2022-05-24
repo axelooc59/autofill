@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="/js/papaparse.min.js"></script>
+    <script src="/js/jquery-3.5.1.js"></script>
+    
+    <style>
+        html,
+        body {
+            height: 100px;
+            width: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Auto Logger</h1>
+
+    <div id="div1" style="visibility: hidden; color:green">
+        Credentials saved !
+    </div>
+
+    <script src="loadData.js"></script>
+    <label for="account-select">Choose an account:</label>
+
+    <select name="accounts" id="account-select">
+
+
+    </select>
+    <button type="submit" name="submit" value="submit" id="submit" >Log in </button>
+    <script src="submit.js"></script>
+
+
+
+</body>
+
+</html>
