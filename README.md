@@ -4,7 +4,7 @@ Folder **autofill**
 
 It is a simple chrome extension that auto fill and log you [here](https://lu11edi-wa01/portalediV2/index.php) with the credentials provided in the popup extension
 
-**How to setup ?**
+**How to setup ?**    
 Requirements: You have to use a Chrome Browser.
 1. Download the folder **autofill**
 2. Go there chrome://extensions/ by copy-paste into the search bar.
