@@ -7,7 +7,7 @@ It is a simple chrome extension that auto fill and log you [here](https://lu11ed
 **How to setup ?**
 Requirements: You have to use a Chrome Browser.
 1. Download the folder **autofill**
-2. Go there chrome://extensions/
+2. Go there [chrome://extensions/] (chrome://extensions/)
 3. Switch on Developer mode at the top right of the screen.
 4. Click on load unpacked  
 5. Choose the folder **autofill** that you have just downloaded
