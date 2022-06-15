@@ -20,6 +20,14 @@ Note:
 * You can right click on the extension picture and click Portal Filler to go directly to the portal page
 * You couldn't log in into the portal as it is confidential content but you can see the filler working.
 
+
+Folder **EQL**
+
+It's an other version of **autofill** when you can store multiple account, the extension is reading account in *account.csv*.
+
+
+
+
  
 
  
